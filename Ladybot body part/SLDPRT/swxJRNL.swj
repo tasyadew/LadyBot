@@ -1,0 +1,182 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 04/11/18 by User
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part2.SLDPRT", 1, 0, "", longstatus, longwarnings)
+swApp.ActivateDoc2 "Part2", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ShowNamedView2 "*Trimetric", 8
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part2.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part3.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part3", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part3.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part4.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part4", False, longstatus
+Set Part = swApp.ActiveDoc
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part4.JPG", 0, 0)
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part4.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part5.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part5", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08324067015273, 0.01646968893524, -0.03222650472728, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08338370204038, 0.01300794036232, -0.0286222868525, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08338370204038, 0.01300794036232, -0.0286222868525, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08419107526501, 0.01387337750555, -0.02868021012465, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08419107526501, 0.01387337750555, -0.02868021012465, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08546774285631, 0.01755148536428, -0.03108105264468, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("TXD1@Scheme2", "DIMENSION", -0.08560486655448, 0.0182005632217, -0.03159290131909, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part5.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part6.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part6", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part6.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part7.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part7", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part7.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part8.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part8", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part8.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part9.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part9", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part9.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part10.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part10", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part10.JPG", 0, 0)
+boolstatus = Part.Extension.SelectByID2("", "FACE", -0.01073719044268, 0.01366330521114, 0.0003078889548647, False, 0, Nothing, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part11.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part11", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part11.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part12.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part12", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part12.JPG", 0, 0)
+Set Part = swApp.OpenDoc6("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot body part\Part13.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part13", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ShowNamedView2 "*Isometric", 7
+longstatus = Part.SaveAs3("C:\Users\User\Documents\Tasyaaaa ;)\Ladybot.jpeg\Part13.JPG", 0, 0)
+Part.ClearSelection2 True
